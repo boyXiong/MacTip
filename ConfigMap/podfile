@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :osx, "10.15"
+
+use_frameworks!
+target 'ConfigMap' do
+  pod 'SnapKit', '~> 5.0.0'
+  pod 'RxSwift'
+  pod "RxCocoa"
+end

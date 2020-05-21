@@ -1,0 +1,6 @@
+framework module Pods_ConfigMap {
+  umbrella header "Pods-ConfigMap-umbrella.h"
+
+  export *
+  module * { export * }
+}
